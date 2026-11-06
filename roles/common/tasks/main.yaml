@@ -8,9 +8,9 @@
   tags:
   - hi
 
-- name: change the variable
-  set_fact: # We can create variables in tasks using set_fact
-    OS: "Debian"
+# - name: change the variable
+#   set_fact: # We can create variables in tasks using set_fact
+#     OS: "Debian"
 
 - name: msg-3
   debug:
